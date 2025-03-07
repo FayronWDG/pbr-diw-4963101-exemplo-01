@@ -13,21 +13,32 @@
         }
 
         #primeriadiv {
-            color: white;
+            color: rgb(255, 0, 0);
             background-color: blueviolet;
             padding: 1rem;
+
         }
 
         .item {
             color: #4cd5f7;
             background-color: aquamarine;
+            border-radius: .5rem;
+            width: 6rem;
 
         }
 
         div {
             margin: 1rem;
-            padding: 1rem ;
-            
+            padding: 1rem;
+        }
+
+        .conteiner {
+            border: 1px solid;
+            color: #018a1d;
+            box-shadow: 2.0rem 0.2rem .5rem #018a1d;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
         }
     </style>
 </head>
@@ -36,12 +47,24 @@
     <p style="color: brown;">
         Isto é um parágrafo
     </p>
-    <div id="primeiradiv">
-        Isto é uma div.
+    <div id="primeiradiv" style="background-color: aqua;">
+        Isto é uma div. generica
     </div>
-    <div class="item">isto é uma div</div>
-    <div class="item">isto é uma div</div>
-    <div class="item">isto é uma div</div>
+
+    <div class="conteiner">
+
+        <div class="item">isto é uma div1</div>
+        <div class="item">isto é uma div</div>
+        <div class="item">isto é uma div</div>
+        <div class="item">isto é uma div1</div>
+        <div class="item">isto é uma div</div>
+        <div class="item">isto é uma div</div>
+        <div class="item">isto é uma div1</div>
+        <div class="item">isto é uma div</div>
+        <div class="item">isto é uma div</div>
+
+    </div>
+
 </body>
 
 </html>
